@@ -74,7 +74,7 @@ tail -4 inner_dir_1/tF_5.txt
  34. Вывести в терминал 4 первые строки любого текстового файла. 
 head -4 inner_dir_1/tF_5.txt
  35. Команда в одну строку. Создать папку и создать текстовый файл с содержиммым. 
-mkdir tenumberedst_6; cat > ./test_6/file_6.txt (в этой же папке test_6)
+mkdir test_6; cat > ./test_6/file_6.txt (в этой же папке test_6)
 mkdir test_1; cat > file_1.txt (в этой же директории но не в этой папке test_1) 
  36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово “sec” 
 grep -lr sec ./* | xargs mv --backup=numbered -t./test_2
